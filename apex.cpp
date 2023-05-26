@@ -1,27 +1,32 @@
-public class Main{
-    public static void main(int key){
-        int n = 7;
-        List<Integer> arr = new ArrayList<Integer>();
-        arr.add(1);
-        arr.add(3);
-        arr.add(6);
-        arr.add(7);
-        arr.add(9);
-        arr.add(10);
-        arr.add(12);
-        bool found = false;
-        int index = -1;
-        for(int i=0;i<n;i++){
-            if(arr[i] == key){
-                found = true;
-                index = i;
-                break;
-            }
+appex.
+
+public class tree
+{
+    public static void main(integer key)
+    {
+        System.debug('Linear Search');
+        integer s=-1;
+        List <integer> lon=new List <integer>();
+        lon.add(0);
+        lon.add(1);
+        System.debug('List'+lon);
+        for(integer i=0;i<lon.size();i++)
+            if(key==lon[i])
+        {
+            s=1;
         }
-        if(found){
-            System.debug(“Element found at ”+ index');
+        if (s==1)
+        {
+            System.debug('Elemtn found');
+            
         }
-        else{
-            System.debug(Element not found');
+        else 
+        {
+            System.debug('Element not found');
         }
+    }
+
+
 }
+
+.........tree.main(....);................
